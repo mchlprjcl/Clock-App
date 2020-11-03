@@ -13,20 +13,20 @@ body {
 }
 .flexItem {
   flex-grow: 1;
-  background-color: #14141424;
+  background-color: #2e2e2e;
   border: 0;
-  box-shadow: #161616 8px 8px;
+  box-shadow: #161616 0 8px;
   border-radius: 10px;
   color: #0bf5;
   transition: color .4s, text-shadow .4s;
+  cursor: pointer;
 }
 .flexItem:hover{
   text-shadow: #0bf 0 0 8px;
   color: #0bf;
 }
 .flexItem:active{
-  box-shadow: #161616 2px 2px;
+  box-shadow: #161616 0 2px;
   position:relative;
-  top:4px;
-  left:4px;
+  top:6px;
 }

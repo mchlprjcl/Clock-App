@@ -1,0 +1,27 @@
+.navBar {
+    display: flex;
+    margin: 30px 190px;
+    height: 5rem;
+    column-gap: 1rem;
+}
+.flexItem {
+    flex-grow: 1;
+    background-color: #2e2e2e;
+    border: 0;
+    box-shadow: #161616 0 8px;
+    border-radius: 10px;
+    border: 2px solid #444;
+    color: #0bf5;
+    transition: color .4s, text-shadow .4s, border-color 1s;
+    cursor: pointer;
+}
+.flexItem:hover{
+    color: #0bf;
+    border-color: #0bf5;}
+.flexItem:active{
+    text-shadow: #0bf 0 0 8px;
+    box-shadow: #161616 0 2px;
+    border-color: #0bf;
+    position:relative;
+    top:6px;
+}

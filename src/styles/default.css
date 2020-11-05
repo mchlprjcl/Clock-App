@@ -5,28 +5,9 @@
 body {
   background-color: #262626;
 }
-.navBar {
-  display: flex;
+#window {
+  position: relative;
+  width: 1524px;
+  height: 700px;
   margin: 30px 190px;
-  height: 5rem;
-  column-gap: 1rem;
-}
-.flexItem {
-  flex-grow: 1;
-  background-color: #2e2e2e;
-  border: 0;
-  box-shadow: #161616 0 8px;
-  border-radius: 10px;
-  color: #0bf5;
-  transition: color .4s, text-shadow .4s;
-  cursor: pointer;
-}
-.flexItem:hover{
-  text-shadow: #0bf 0 0 8px;
-  color: #0bf;
-}
-.flexItem:active{
-  box-shadow: #161616 0 2px;
-  position:relative;
-  top:6px;
 }

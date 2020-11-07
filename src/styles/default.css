@@ -11,3 +11,7 @@ body {
   height: 700px;
   margin: 30px 190px;
 }
+.text {
+  color: #0bf;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

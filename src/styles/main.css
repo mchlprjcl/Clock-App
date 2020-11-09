@@ -18,10 +18,18 @@
 .flexItem:hover{
     color: #0bf;
     border-color: #0bf5;}
-.flexItem:active{
+.flexItem:active {
     text-shadow: #0bf 0 0 8px;
     box-shadow: #161616 0 2px;
     border-color: #0bf;
+    position:relative;
+    top:6px;
+}
+.clicked {
+    color: #0bf;
+    text-shadow: #0bf 0 0 8px;
+    box-shadow: #161616 0 2px;
+    border-color: #0bf !important;
     position:relative;
     top:6px;
 }

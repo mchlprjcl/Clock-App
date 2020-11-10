@@ -33,3 +33,14 @@
     position:relative;
     top:6px;
 }
+#window {
+    position: relative;
+    width: 1524px;
+    height: 700px;
+    margin: 30px 190px;
+    border: 0;
+}
+iframe {
+    width: 500px;
+    height: 500px;
+}

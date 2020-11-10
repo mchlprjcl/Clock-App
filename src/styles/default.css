@@ -5,12 +5,6 @@
 body {
   background-color: #262626;
 }
-#window {
-  position: relative;
-  width: 1524px;
-  height: 700px;
-  margin: 30px 190px;
-}
 .text {
   color: #0bf;
   font-family: Verdana, Geneva, Tahoma, sans-serif;

@@ -3,10 +3,13 @@ let windowFrame = document.getElementById('window');
 function navEvent(file) { 
     return function clickEvent(ev) {
         if(windowFrame.attributes[1].value != `src/components/${file}.html`) {
+            for(let i = 0; i < 4; i++) {
+                document.querySelectorAll('button.flexItem')[i].classList.remove('clicked');
+            }
             windowFrame.attributes[1].value = `src/components/${file}.html`
-            ev.target.classList.add('clicked');
+            this.classList.add('clicked');
         } else {        
-            ev.target.classList.remove('clicked');
+            this.classList.remove('clicked');
             windowFrame.attributes[1].value = "src/components/home.html"
         }
     }

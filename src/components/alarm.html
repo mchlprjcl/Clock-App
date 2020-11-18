@@ -10,11 +10,24 @@
     <div class="wrapper">
         <div class="alarm"></div>
         <div class="alarm"></div>
-        <div class="alarm">
+        <div class="alarm enableAnimation">
             <p class="time text">8:00</p>
-            <div class="select"></div>
+            <div class="select">
+                <span>Po</span>
+                <span>Ut</span>
+                <span>St</span>
+                <span>Št</span>
+                <span>Pi</span>
+                <span>So</span>
+                <span>Ne</span>
+            </div>
             <div class="options">
-                <input type="checkbox" class="alarmSwitch">
+                <label class="container">
+                    <input type="checkbox" class="alarmSwitch">
+                    <span class="checkmark"></span>
+                </label>
+                <button class="pref">...</button>
+                
             </div>
         </div>
         <button class="add">+</button>

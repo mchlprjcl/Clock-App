@@ -6,7 +6,7 @@ body {
   background-color: #262626;
 }
 .text {
-  color: #0bf;
+  color: #0bf !important;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   text-shadow: 0 0 1px;
 }

@@ -103,6 +103,7 @@
     color: #0bf;
     font-size: 1.5rem;
     border: 0;
+    border-radius: 3px;
     cursor: pointer;
 }
 .pref:hover {

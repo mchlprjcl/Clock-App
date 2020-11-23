@@ -6,11 +6,11 @@ function navEvent(file) {
             for(let i = 0; i < 4; i++) {
                 document.querySelectorAll('button.flexItem')[i].classList.remove('clicked');
             }
-            windowFrame.attributes[1].value = `src/components/${file}.html`
+            windowFrame.attributes[1].value = `src/components/${file}.html`;
             this.classList.add('clicked');
         } else {        
             this.classList.remove('clicked');
-            windowFrame.attributes[1].value = "src/components/home.html"
+            windowFrame.attributes[1].value = "src/components/home.html";
         }
     }
 }

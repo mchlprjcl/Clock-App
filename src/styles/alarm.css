@@ -30,10 +30,15 @@
     margin: 50px auto 0;
     border-radius: 10px;
     border-left: 4px solid #0bf;
+    transition: all .2s;
 }
 .disabled {
     border-left-color: #0bf5;
     background: #0001;
+}
+.modify {
+    height: 200px;
+    align-items: center;
 }
 .time {
     color: #0bf;
@@ -43,13 +48,15 @@
     padding-top: 0.8rem;
     margin: 0;
     flex-grow: 1;
-    /* background-color: #00f1; */
+    /* Blue */
+    background-color: #00f1;
 }
 .select {
     flex-grow: 1;
     text-align: center;
     padding-top: 28px;
-    /* background-color: #f001; */
+    /* Red */
+    background-color: #f001;
 }
 .select span {
     color: #0004;
@@ -64,7 +71,8 @@
 }
 .options {
     flex-grow: 1;
-    /* background-color: #0f01; */
+    /* Green */
+    background-color: #0f01;
 }
 .alarmSwitch {
     width: 20px;
@@ -126,7 +134,7 @@
     cursor: pointer;
 }
 .pref:hover {
-    background: #0008;
+    background: #000a;
 }
 .disabled .pref {
     background: #0002;

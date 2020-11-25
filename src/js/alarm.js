@@ -6,6 +6,7 @@ document.querySelector('.checkmark').addEventListener('click', (ev) => {
     } else {
         classArr.add('disabled');
         document.querySelector('.pref').disabled = true;
+        if(classArr.contains('modify')) classArr.remove('modify');
     }
     return
 })

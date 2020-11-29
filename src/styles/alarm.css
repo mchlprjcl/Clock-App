@@ -55,16 +55,43 @@
     margin: 0;
     flex-grow: 1;
     /* Blue */
-    background-color: #00f1;
+    /* background-color: #00f1; */
 }
 .time .text {
     margin: 0;
+    grid-column: 1 / 5;
+    text-align: center;
+}
+.modify .time {
+    display: grid;
+    grid-template-columns: repeat(4, 38px);
+    grid-template-rows: 30px 58px 30px;
+    align-content: center;
+}
+.time button {
+    display: none;
+    padding: 0;
+    border: 0;
+    border-radius: 3px;
+    color: #0bf;
+    background-color: #0004;
+    cursor: pointer;
+    margin: 0 2px;
+}
+.modify .time button {
+    display: initial;
+}
+.modify .time button:hover {
+    background: #000a;
+}
+.time button:active, .pref:active {
+    text-shadow: 0 0 8px;
 }
 .select {
     flex-grow: 1;
     text-align: center;
     /* Red */
-    background-color: #f001;
+    /* background-color: #f001; */
 }
 .select span {
     color: #0004;
@@ -81,11 +108,7 @@
     flex-grow: 1;
     justify-content: space-evenly !important;
     /* Green */
-    background-color: #0f01;
-}
-.alarmSwitch {
-    width: 20px;
-    height: 20px;
+    /* background-color: #0f01; */
 }
 .checkmark {
     position: relative;
@@ -110,6 +133,9 @@
     -ms-transform: rotate(45deg);
     transform: rotate(45deg);
 } 
+.checkmark:active {
+    border: 0;
+}
 .disabled .checkmark:hover{
     background-color: #0008;
 }
@@ -143,4 +169,5 @@
     background: #0002;
     color: #0bf5;
     cursor: default;
+    text-shadow: 0 0 0;
 }

@@ -104,6 +104,19 @@
 .disabled .text {
     color: #0bf5 !important;
 }
+.modify .select span {
+    border-bottom: 3px dotted #0004;
+    cursor: pointer;
+}
+.modify .select span:hover {
+    border-bottom: 3px solid #0004;
+}
+.modify .select span.text {
+    border-bottom: 3px dotted #0bf5;
+}
+.modify .select span.text:hover {
+    border-bottom: 3px solid #0bf5;
+}
 .options {
     flex-grow: 1;
     justify-content: space-evenly !important;
@@ -149,6 +162,10 @@
 .disabled .checkmark:hover::after {
     border: solid #0bf;
     border-width: 0 3px 3px 0;
+}
+.modify .checkmark {
+    cursor: default;
+    background: #0bf5;
 }
 .pref {
     position: relative;

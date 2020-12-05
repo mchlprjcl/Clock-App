@@ -32,9 +32,3 @@ document.addEventListener('DOMContentLoaded', () => {
 document.querySelectorAll('button.flexItem')[0].addEventListener('click', navEvent('clock'))
 
 document.querySelectorAll('button.flexItem')[1].addEventListener('click', navEvent('alarm'))
-
-// for(let i = 0; i < 4; i++) {
-//     document.querySelectorAll('button.flexItem')[i].addEventListener('click', (ev) => {
-//             ev.target.classList.add('clicked');
-//     })
-// }

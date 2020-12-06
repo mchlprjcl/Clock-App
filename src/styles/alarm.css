@@ -166,6 +166,7 @@
 .modify .checkmark {
     cursor: default;
     background: #0bf5;
+    display: none;
 }
 .pref {
     position: relative;
@@ -187,4 +188,21 @@
     color: #0bf5;
     cursor: default;
     text-shadow: 0 0 0;
+}
+.delete {
+    display: none;
+}
+.modify .delete {
+    display: block;
+    background-color: #0bf5;
+    border: 0;
+    height: 25px;
+    width: 80px;
+    color: #181818 !important;
+    font-size: 0.9rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+.modify .delete:hover {
+    background: #0bf;
 }

@@ -1,4 +1,3 @@
-// if(!storage.alarmTime) storage.setItem('time')
 document.querySelector('.checkmark').addEventListener('click', (ev) => {
     let classArr = ev.target.parentElement.parentElement.classList;
     if(classArr.contains('disabled')) {
@@ -13,7 +12,6 @@ document.querySelector('.checkmark').addEventListener('click', (ev) => {
 })
 
 function handler(ev) {
-    console.log(ev.target)
     if(ev.target.classList == false) {
         ev.target.classList.add('text')
     } else {
@@ -56,7 +54,6 @@ function changeTime(number, position, operator) {
             position? hours[position] = hours[position] + 60 : hours[position] = hours[position] + 24}
         hours[position] = hours[position].toString().padStart(2,'0')
         timeClass.children[4].textContent = hours.join(':');
-        console.log(hours.join(':'))
     }
 }
 let timeClass = document.querySelector('.time');
